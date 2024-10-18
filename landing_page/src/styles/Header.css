@@ -1,0 +1,12 @@
+.headerrr {
+  color: #ffffff;
+}
+
+/* .row {
+  display: flex;
+} */
+
+.wrapper {
+  background-color: darkblue;
+  justify-content: space-between;
+}
