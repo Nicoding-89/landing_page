@@ -20,60 +20,60 @@ const About = () => {
         I am motivated by the opportunity to learn new skills and improve the ones I already have. This portfolio showcases my projects and the journey I've taken in the tech field.
       </p>
       <h2 className='about-skills'>Technologies I work with</h2>
-      <div className='cards-container'>
-        <div className="card" style={{ width: '10rem' }}>
+      <div className='cards-container about'>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             HTML
           </div>
-          <img src={htmlLogo} className="card-img-bottom" alt="HTML logo" />
+          <img src={htmlLogo} className="card-img-bottom about-img" alt="HTML logo" />
         </div>
-        <div className="card" style={{ width: '10rem' }}>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             CSS
           </div>
-          <img src={cssLogo} className="card-img-bottom" alt="CSS logo" />
+          <img src={cssLogo} className="card-img-bottom about-img" alt="CSS logo" />
         </div>
-        <div className="card" style={{ width: '10rem' }}>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             JavaScript
           </div>
-          <img src={jsLogo} className="card-img-bottom" alt="JavaScript logo" />
+          <img src={jsLogo} className="card-img-bottom about-img" alt="JavaScript logo" />
         </div>
-        <div className="card" style={{ width: '10rem' }}>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             Bootstrap
           </div>
-          <img src={bootstrapLogo} className="card-img-bottom" id='bootstrapLogo' alt="Bootstrap logo" />
+          <img src={bootstrapLogo} className="card-img-bottom about-img" id='bootstrapLogo' alt="Bootstrap logo" />
         </div>
-        <div className="card" style={{ width: '10rem' }}>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             React
           </div>
-          <img src={reactLogo} className="card-img-bottom" id='reactLogo' alt="React logo" />
+          <img src={reactLogo} className="card-img-bottom about-img" id='reactLogo' alt="React logo" />
         </div>
-        <div className="card" style={{ width: '10rem' }}>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             NodeJs
           </div>
-          <img src={nodeJsLogo} className="card-img-bottom" alt="NodeJs logo" />
+          <img src={nodeJsLogo} className="card-img-bottom about-img" alt="NodeJs logo" />
         </div>
-        <div className="card" style={{ width: '10rem' }}>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             PostgreSQL
           </div>
-          <img src={postgreSqlLogo} className="card-img-bottom" alt="PostgreSQL logo" />
+          <img src={postgreSqlLogo} className="card-img-bottom about-img" alt="PostgreSQL logo" />
         </div>
-        <div className="card" style={{ width: '10rem' }}>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             Linux
           </div>
-          <img src={linuxLogo} className="card-img-bottom" alt="Linux penguin" />
+          <img src={linuxLogo} className="card-img-bottom about-img" alt="Linux penguin" />
         </div>
-        <div className="card" style={{ width: '10rem' }}>
+        <div className="card about" style={{ width: '10rem' }}>
           <div className="card-header">
             AWS
           </div>
-          <img src={awsLogo} className="card-img-bottom" alt="AWS logo" />
+          <img src={awsLogo} className="card-img-bottom about-img" alt="AWS logo" />
         </div>
       </div>
 
