@@ -20,6 +20,12 @@
   font-size: 1.5rem;
 }
 
+.cards-container.project {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+}
+
 .img-top-container {
   padding: 10px;
 }
@@ -66,4 +72,9 @@
 
 .card-text.project {
   font-size: 1.2rem;
+}
+
+.card-body.project {
+  display: flex;
+  align-items: center;
 }

@@ -9,10 +9,11 @@ import nodeJsLogo from '../assets/img/nodejs.webp'
 import postgreSqlLogo from '../assets/img/Postgresql.png'
 import linuxLogo from '../assets/img/linux.png'
 import awsLogo from '../assets/img/AmazonAWS.png'
+import TechCards from './TechCards'
 
 const About = () => {
   return (
-    <section id='about'>
+    <section id='about' className='about-container'>
       <h1 className='about-title'>About me</h1>
       <p className='about-description'>
         My name is Nicolas Labarca. I have a psychology degree and multiple diplomas in clinical psychology and talent management. I've always had a passion for computing. During the pandemic, I decided to learn to program using free online resources like freeCodeCamp and The Odin Project. Later, I attended a full-stack JavaScript web development bootcamp in 2023. This year, I also completed another bootcamp in cybersecurity and earned a Google certificate in IT support.
@@ -21,62 +22,16 @@ const About = () => {
       </p>
       <h2 className='about-skills'>Technologies I work with</h2>
       <div className='cards-container about'>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            HTML
-          </div>
-          <img src={htmlLogo} className="card-img-bottom about-img" alt="HTML logo" />
-        </div>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            CSS
-          </div>
-          <img src={cssLogo} className="card-img-bottom about-img" alt="CSS logo" />
-        </div>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            JavaScript
-          </div>
-          <img src={jsLogo} className="card-img-bottom about-img" alt="JavaScript logo" />
-        </div>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            Bootstrap
-          </div>
-          <img src={bootstrapLogo} className="card-img-bottom about-img" id='bootstrapLogo' alt="Bootstrap logo" />
-        </div>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            React
-          </div>
-          <img src={reactLogo} className="card-img-bottom about-img" id='reactLogo' alt="React logo" />
-        </div>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            NodeJs
-          </div>
-          <img src={nodeJsLogo} className="card-img-bottom about-img" alt="NodeJs logo" />
-        </div>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            PostgreSQL
-          </div>
-          <img src={postgreSqlLogo} className="card-img-bottom about-img" alt="PostgreSQL logo" />
-        </div>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            Linux
-          </div>
-          <img src={linuxLogo} className="card-img-bottom about-img" alt="Linux penguin" />
-        </div>
-        <div className="card about" style={{ width: '10rem' }}>
-          <div className="card-header">
-            AWS
-          </div>
-          <img src={awsLogo} className="card-img-bottom about-img" alt="AWS logo" />
-        </div>
+        <TechCards techName={'HTML'} logo={htmlLogo} imgId={'htmlLogo'} />
+        <TechCards techName={'CSS'} logo={cssLogo} imgId={'cssLogo'} />
+        <TechCards techName={'JavaScript'} logo={jsLogo} imgId={'jsLogo'} />
+        <TechCards techName={'Bootstrap'} logo={bootstrapLogo} imgId={'bootstrapLogo'} />
+        <TechCards techName={'React'} logo={reactLogo} imgId={'reactLogo'} /> 
+        <TechCards techName={'NodeJs'} logo={nodeJsLogo} imgId={'nodeJsLogo'} />
+        <TechCards techName={'PostgreSQL'} logo={postgreSqlLogo} imgId={'postgreSqlLogo'} />
+        <TechCards techName={'Linux'} logo={linuxLogo} imgId={'linuxLogo'} />
+        <TechCards techName={'AWS'} logo={awsLogo} imgId={'awsLogo'} />
       </div>
-
     </section>
   )
 }
