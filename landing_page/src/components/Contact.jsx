@@ -9,16 +9,15 @@ const Contact = () => {
       <p>I'd love to hear from you! Whether you have a question, want to discuss a project, or just want to say hi, feel free to reach out.</p>
       <p>You can reach me directly at:</p>
       <div className='contact-data'>
-        <p>
-          <a href='mailto:nicoding9@gmail.com' className='contact-link'><i className="fa-regular fa-envelope fa-xl"></i></a>
-          <span> nicoding89@gmail.com</span>
-        </p>
-        <p>
-          <a href='https://www.linkedin.com/in/nicolas-labarca-sierra/' className='contact-link'><i className="fa-brands fa-linkedin fa-xl"></i></a>
-        </p>
-        <p>
-          <a href='https://github.com/Nicoding-89' className='contact-link'><i className="fa-brands fa-github fa-xl"></i></a>
-        </p>
+        <a href='mailto:nicoding9@gmail.com' className='contact-link' target='_blank' rel='noopener noreferrer'>
+          <i className="fa-regular fa-envelope fa-xl"></i> nicoding9@gmail.com
+        </a>
+        <a href='https://www.linkedin.com/in/nicolas-labarca-sierra/' className='contact-link' target='_blank' rel='noopener noreferrer'>
+          <i className="fa-brands fa-linkedin fa-xl"></i>
+        </a>
+        <a href='https://github.com/Nicoding-89' className='contact-link' target='_blank' rel='noopener noreferrer'>
+          <i className="fa-brands fa-github fa-xl"></i>
+        </a>
       </div>
       <div className='form-container'>
         <p>...Or, you can fill out the following form:</p>
