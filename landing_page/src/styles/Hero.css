@@ -1,7 +1,7 @@
 
 .hero {
   color: #ffffff;
-  padding: 6rem 4rem;
+  padding: 7rem 4rem;
   display: flex;
   justify-content: space-around;
   align-items: center;
@@ -16,11 +16,18 @@
 
 .btn.btn-primary.cta-btn {
   width: 230px;
+  font-weight: bolder;
+  font-size: 1.2rem;
+  color: #ffffff;
 }
 
 .btn.btn-primary.cta-btn a {
   font-weight: bolder;
   font-size: 1.2rem;
+}
+
+.hero-title {
+  font-size: 4.5rem;
 }
 
 .hero-text {  
@@ -31,11 +38,11 @@
 
 .hero-subtitle {
   margin-bottom: 0.8rem;
-  font-size: 2.1rem;
+  font-size: 2.5rem;
 }
 
 .hero-description {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   margin-bottom: 1.5rem;
 }
 
@@ -62,4 +69,12 @@
     font-size: 3rem;
   }
 
+  .hero-subtitle {
+    font-size: 2.1rem;
+  }
+  
+  .hero-description {
+    font-size: 1.5rem;
+    margin-bottom: 1.5rem;
+  }
 }

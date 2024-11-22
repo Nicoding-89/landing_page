@@ -60,8 +60,32 @@
   object-fit: contain;
 }
 
+.about-content {
+  display: flex;
+}
+
+.line-deco {
+  min-width: 1rem;
+  width: 1rem;
+  background: linear-gradient(to bottom, transparent, #ff8000, transparent); 
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+.orange-letters {
+  color: #ff5d33;
+}
+
 @media (max-width: 576px) {
+  .about-container {
+    padding: 4rem 2rem 6rem;
+  }
+
   .about-description {
     text-align: start;
+  }
+
+  .line-deco {
+    margin-right: 20px;
   }
 }
