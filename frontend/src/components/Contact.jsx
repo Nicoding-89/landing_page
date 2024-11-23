@@ -10,7 +10,7 @@ const Contact = () => {
       <p>You can reach me directly at:</p>
       <div className='contact-data'>
         <a href='mailto:nicoding9@gmail.com' className='contact-link' target='_blank' rel='noopener noreferrer'>
-          <i className="fa-regular fa-envelope fa-xl"></i> nicoding9@gmail.com
+          <i className="fa-regular fa-envelope fa-xl"></i> nicoding89@gmail.com
         </a>
         <a href='https://www.linkedin.com/in/nicolas-labarca-sierra/' className='contact-link' target='_blank' rel='noopener noreferrer'>
           <i className="fa-brands fa-linkedin fa-xl"></i>
