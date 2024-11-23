@@ -1,0 +1,50 @@
+.error.container {
+  text-align: center;
+  color: #ffffff;  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background-color: #001133;
+  padding: 4rem 0;
+}
+
+.error.container p {
+  line-height: 1;
+}
+
+.error-status {
+  font-size: 200px;
+  font-weight: bolder;
+  display: inline-block;
+  transform: rotate(20deg);
+}
+
+.error-name {
+  font-size: 100px;
+  font-weight: bold;
+}
+
+.error-message {
+  font-size: 70px;
+}
+
+.go-back-btn {
+  font-weight: 700;
+  width: 300px;
+}
+
+@media (max-width: 575px) {
+  .error-status {
+    font-size: 150px;
+  }
+  
+  .error-name {
+    font-size: 72px;
+  }
+  
+  .error_message {
+    font-size: 40px;
+  }
+}
