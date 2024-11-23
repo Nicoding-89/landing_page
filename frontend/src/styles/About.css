@@ -1,0 +1,91 @@
+.about-container {
+  background-color: #ffffff;
+  padding: 4rem 4rem 6rem;
+  color: #001133;
+}
+
+.about-title {
+  margin-bottom: 1rem;
+  font-weight: bolder;
+}
+
+.about-description {
+  margin-bottom: 1.5rem;
+  font-size: 1.5rem;
+  text-align: justify;
+  hyphens: auto;
+}
+
+.about-skills {
+  font-size: 2.1rem;
+  margin-bottom: 2rem;
+}
+
+.cards-container.about {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cards-container.about .card {
+  border: 1.5px solid #0d6efd;
+  padding-bottom: 10px
+}
+
+.card.about {
+  width: 10rem;
+}
+
+.card .about-img {
+  width: 100px;
+  height: 100px;
+  margin: 0 auto;
+}
+
+.card-header {
+  margin-bottom: 10px;
+  font-weight: bold;
+  text-align: center;
+  color: #001133;
+  background-color: #f2f2f2;
+}
+
+#bootstrapLogo {
+  width: 130px;
+}
+
+#reactLogo,
+#bootstrapLogo {
+  object-fit: contain;
+}
+
+.about-content {
+  display: flex;
+}
+
+.line-deco {
+  min-width: 1rem;
+  width: 1rem;
+  background: linear-gradient(to bottom, transparent, #ff8000, transparent); 
+  margin-right: 40px;
+  border-radius: 10px;
+}
+
+.orange-letters {
+  color: #ff5d33;
+}
+
+@media (max-width: 576px) {
+  .about-container {
+    padding: 4rem 2rem 6rem;
+  }
+
+  .about-description {
+    text-align: start;
+  }
+
+  .line-deco {
+    margin-right: 20px;
+  }
+}

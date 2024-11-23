@@ -30,8 +30,6 @@ export const sendEmail = async (req, res) => {
 
   try {
     const info = await transporter.sendMail(mailConfig);
-
-    // console.log("Message sent: %s", info.messageId);
     res.status(200).json({"id": `${info.messageId}`, "message": 'All done! Your message is on its way.'});
   } catch (error) {
     console.error(error);

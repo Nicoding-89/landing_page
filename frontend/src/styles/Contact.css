@@ -1,0 +1,43 @@
+.contact-container {
+  color: #ffffff;
+  padding: 5rem 5rem 10rem;
+}
+
+.contact-title {
+  font-size: 3.2rem;
+  margin-bottom: 2rem;
+  font-weight: bolder;
+}
+
+.contact-container p{
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.contact-data {
+  margin: 1rem 0;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  font-size: 1.5rem;
+}
+
+.contact-link {
+  color: #ffffff;
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+}
+
+
+@media (max-width: 576px) {
+  .contact-container {
+    padding: 5rem 1.5rem 10rem;
+  }
+  
+}
