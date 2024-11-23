@@ -24,7 +24,7 @@ const Projects = () => {
     projectDescription: 'As you can see, this project is a personal landing page where I showcase my skills, projects, and a little bit about myself. Want to check the code behind it? Feel free to take a look at the repository!',
     technologies: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'React', 'Node.js'],
     repoLink: 'https://github.com/Nicoding-89/landing_page',
-    projectUrl: 'https://zero1-url-shortener-1.onrender.com/',
+    projectUrl: 'https://landing-page-frontend-1y05.onrender.com',
     deploymentPlatform: 'Render'
   }
 
