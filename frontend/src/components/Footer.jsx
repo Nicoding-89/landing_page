@@ -33,7 +33,7 @@ const Footer = () => {
           </a>
         </div>
         <p className="footer-text my-2">
-          © {new Date().getFullYear()} NiCoding. All rights reserved.
+          © {new Date().getFullYear()} NiCoding <i class="fa-solid fa-laptop-code fa-lg"></i>. All rights reserved.
         </p>
       </div>
     </footer>
